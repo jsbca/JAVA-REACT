@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# Backend
+backend/target/
+backend/.mvn/wrapper/dists/
+backend/src/main/resources/static/*
+!backend/src/main/resources/static/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Env
+**/.env

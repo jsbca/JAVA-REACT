@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+"${REPO_DIR}/backend/mvnw" -f "${REPO_DIR}/backend/pom.xml" spring-boot:run
